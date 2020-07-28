@@ -12,7 +12,6 @@ import * as ormconfig from './ormconfig';
     TypeOrmModule.forRoot(ormconfig),
     AuthModule,
     UsersModule,
-    ToolsModule,
   ],
   controllers: [AppController],
   providers: [AppService],
